@@ -19,7 +19,9 @@ const CountryDetails = () => {
   return (
     <div>
       <h2>{country.name?.common}</h2>
-      {/* Mostrar otros detalles del país según sea necesario */}
+      <p>Capital: {country.capital}</p>
+      <p>Population: {country.population}</p>
+      {/* Otros detalles del país */}
     </div>
   );
 };
